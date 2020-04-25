@@ -1,0 +1,85 @@
+.row-header {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.row-content {
+    margin: 0 auto;
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 300px;
+}
+.footer {
+    background-color:  #D1C4E9;
+    margin: 0 auto;
+    padding: 20px 0;
+    bottom: 0;
+}
+.jumbotron {
+    padding: 70px 30px;
+    margin: 0 auto;
+    background-color: #9575CD;
+    color: floralwhite;
+}
+.address {
+    font-size: 80%;
+    margin: 0;
+    color: #0F0F0F;
+}
+.about {
+    padding: 5px;
+    margin: 5px;
+}
+@media only screen and (max-width: 375px) {
+  .row-content {
+    margin: 5px auto;
+    padding: 10px;
+    border-bottom: 1px ridge;
+    min-height: 50px;
+}
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+.space {
+    margin: 5px;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+
+.about {
+    padding: 5px;
+    margin: 5px;
+}
+
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+.carousel-caption {
+    margin-left: 200px;
+}
+
+.modal-header {
+    background-color: rgba(82, 45, 168, 0.774);
+}
+.modal-body {
+    background-color: rgba(149, 117, 205, 0.719);
+    margin-top: -1px !important;
+}
